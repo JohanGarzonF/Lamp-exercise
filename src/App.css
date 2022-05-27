@@ -1,0 +1,52 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgb(44, 201, 30), rgb(48, 119, 163));
+}
+.indiv-lamp, .global-lamps {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border:  1px rgb(122, 122, 122);
+  width: 200px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(30, 30, 29, 0.349);
+}
+.card p {
+  font-size: 25px;
+  margin: 2px 0;
+}
+.btn {
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px 10px;
+}
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: rgb(0, 62, 162);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.lamp {
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgba(133, 149, 136, 0.975);
+}
+.Off {
+  background-color: rgba(218, 253, 15, 0.975);
+}
